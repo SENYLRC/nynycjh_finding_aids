@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+    <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" audience="internal" id="a0" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" repositoryencoding="iso15511" relatedencoding="MARC21">
+        <eadid mainagencycode="US-nynycjh" url="file:/usr/local/projects/migration_scripts/nyead/ead/nynycjh/475954_SusanneSchall.xml">nynycjh_susanneschall</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper encodinganalog="245$a">Guide to the Susanne Schall Collection<lb/>
+                    <date type="inclusive" normal="1913/1971" era="ce" calendar="gregorian">undated, 1913-1971</date>
+                    <lb/>
+                    <lb/>AR 11055</titleproper>
+                <author encodinganalog="245$c">Processed by Leanora Lange</author>
+                <sponsor>Described and encoded as part of the CJH Holocaust Resource Initiative, made possible by the Conference on Jewish Material Claims against Germany.</sponsor>
+            </titlestmt>
+            <publicationstmt>
+                <date encodinganalog="260$c" type="publication" normal="2013" era="ce" calendar="gregorian">&#xA9; 2013</date>
+                <publisher encodinganalog="260$b">Leo Baeck Institute</publisher>
+                <address>
+                    <addressline>Leo Baeck Institute</addressline>
+                    <addressline>Center for Jewish History</addressline>
+                    <addressline>15 West 16th Street</addressline>
+                    <addressline>New York, NY 10011</addressline>
+                    <addressline>Phone: (212) 744-6400</addressline>
+                    <addressline>Fax: (212) 988-1305</addressline>
+                    <addressline>Email: lbaeck@lbi.cjh.org</addressline>
+                    <addressline>URL: http://www.lbi.org</addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation encodinganalog="500$a">Electronic finding aid was encoded in EAD 2002 by Leanora Lange in<date era="ce" calendar="gregorian">October 2013</date>.</creation>
+            <langusage>Description is in<language langcode="eng" encodinganalog="546$a" scriptcode="Latn">English</language>.</langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+        <did id="a1">
+            <head>Descriptive Summary</head>
+            <origination encodinganalog="100$a" label="Creator" audience="external">Schall, Susanne</origination>
+            <unittitle label="Title" encodinganalog="245$a" audience="external">Susanne Schall Collection</unittitle>
+            <unitdate encodinganalog="245$f" label="Dates" audience="external" type="inclusive" normal="1913/1971" era="ce" calendar="gregorian">undated, 1913-1971</unitdate>
+            <abstract label="Abstract" encodinganalog="520$a" audience="external">Susanne Schall n&#xE9;e Oliven (1916-1999) was the daughter of librettist Fritz Oliven (&#x201C;Ridemaus&#x201D;). She left Berlin, Germany with her family in 1939 for Porto Alegre, Brazil and later immigrated to the United States. This collection consists of the personal papers of the Oliven, Schall, and Meyer families. Personal correspondence makes up the bulk of the collection. Other materials include biographical and autobiographical writings, wedding invitations and poems, obituaries, genealogical tables, notes, a few balance sheets, and a drawing.</abstract>
+            <langmaterial label="Languages" encodinganalog="546$a" audience="external">The collection is in<language langcode="ger">German</language>,<language langcode="eng" encodinganalog="546$a" scriptcode="Latn">English</language>, and<language langcode="por">Portuguese</language>.</langmaterial>
+            <physdesc label="Quantity" encodinganalog="300$a" audience="external">
+                <extent unit="linear feet">0.5</extent>linear feet</physdesc>
+            <unitid encodinganalog="094$a" label="Identification" countrycode="US" repositorycode="US-nynycjh" audience="external">AR 11055</unitid>
+            <repository encodinganalog="852$a" label="Repository" audience="external">
+                <corpname authfilenumber="n 50078516" source="lcnaf" role="repository">Leo Baeck Institute</corpname>
+            </repository>
+            <physloc audience="internal" encodinganalog="852$z" label="Location">Archives</physloc>
+        </did>
+        <bioghist id="a2" encodinganalog="545$a">
+            <head>Biographical Note</head>
+            <p>Susanne (alternatively Susi) Schall n&#xE9;e Oliven was born in Berlin in 1916 as the daughter of Leonie and Fritz Oliven, who was well known under the pseudonym of "Rideamus" as a lyricist of many German operettas of the 1920s and early 1930s. The family emigrated to Porto Alegre, Brazil in 1939. Having studied art in Berlin, Susanne worked as an artist in Brazil. After the death of her husband Herbert Schall in 1952, she moved to New York, where she earned an M.A. degree from City College. She died in Portland, Oregon, in 1999.</p>
+        </bioghist>
+        <scopecontent id="a3" encodinganalog="520$b">
+            <head>Scope and Content Note</head>
+            <p>This collection contains the personal papers of several members of the Oliven, Schall, and Meyer families. The bulk of this collection consists of correspondence among Oliven and Schall family members. The main correspondents are Susanne Schall&#x2019;s father Fritz Oliven, her mother Leonie Oliven, her brother Klaus Oliven, and Klaus&#x2019; wife Seldi. Letters composed by each of these correspondents are filed in the same folder, and these letters are often addressed to several different persons, mainly other family members. Also included is the correspondence of Susanne&#x2019;s husband Herbert Schall as well as correspondence between Susanne and her nieces, nephews, and other relatives. Some of the correspondence from Leonie Oliven is fragmentary and much of it is brittle.</p>
+            <p>Beyond the correspondence, other materials in the collection include biographical notes and poems written by or for Fritz Oliven, loose notes and autobiographical writings by Leonie Oliven related to her emigration from Germany, invitations and poems related to the wedding of Susanne and Herbert Schall, and genealogical materials on the Meyer family, a branch of the Oliven family. Included with the Meyer family materials are two short family history memoirs by two of the Meyer family members, Rebecca Steinthal and Flora Meyer. The miscellaneous folder includes balance sheets, some of which relates to taxes, loose notes on German history, and a drawing.</p>
+        </scopecontent>
+        <arrangement id="a4" encodinganalog="351$a">
+            <head>Arrangement</head>
+            <p>The collection is arranged alphabetically by the name of the person or family.</p>
+        </arrangement>
+        <descgrp>
+            <relatedmaterial id="a6" encodinganalog="5441$a">
+                <head>Related Material</head>
+                <p>See also the<extref xlink:type="simple" xlink:href="http://digifindingaids.cjh.org/?pID=479550">Klaus Oliven Collection</extref>as well as two memoirs by Klaus Oliven,<extref xlink:type="simple" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=508208">The descendants of Rebekka Meyer n&#xE9;e Levy Warburg</extref>, and<extref xlink:type="simple" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=1712155">My family history</extref>.</p>
+            </relatedmaterial>
+            <accessrestrict id="a14" encodinganalog="506$a">
+                <head>Access Restrictions</head>
+                <p>This collection is open to researchers.</p>
+            </accessrestrict>
+            <accessrestrict>
+                <head>Access Information</head>
+                <p>Readers may access the collection by visiting the<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://www.lbi.org/about/visiting-lbi/">Lillian Goldman Reading Room</extref>at the Center for Jewish History. We recommend reserving the collection in advance; please visit the LBI Online Catalog and click on the<emph>
+                        <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://opac.cjh.org:8991/F?func=item-global&amp;doc_library=CJH01&amp;doc_number=000199758">"Request"</extref>
+                    </emph>button.</p>
+            </accessrestrict>
+            <prefercite id="a18" encodinganalog="524$a">
+                <head>Preferred Citation</head>
+                <p>Published citations should take the following form:</p>
+                <p>Identification of item, date (if known); Susanne Schall Collection; AR 11055; box number; folder number; Leo Baeck Institute.</p>
+            </prefercite>
+            <processinfo id="a21" encodinganalog="583$a">
+                <head>Processing Information</head>
+                <p>Materials were rehoused into acid-free archival folders. Papers were unfolded and flattened.</p>
+            </processinfo>
+        </descgrp>
+        <controlaccess id="a12">
+            <persname source="local" encodinganalog="600$a">Schall, Susanne</persname>
+            <famname source="local" encodinganalog="600$a">Schall family</famname>
+            <famname source="local" encodinganalog="600$a">Oliven family</famname>
+            <famname source="local" encodinganalog="600$a">Meyer family</famname>
+            <subject source="lcsh" encodinganalog="650$a" authfilenumber="sh85140040" rules="aacr2">United States -- Emigration and immigration</subject>
+            <subject source="local" encodinganalog="650$a">Brazil -- Emigration and immigration -- 1933-1945</subject>
+            <subject source="lcsh" encodinganalog="650$a">Restitution and indemnification claims (1933- ) -- Germany</subject>
+            <genreform source="aat" encodinganalog="655$a" authfilenumber="300026877">Correspondence</genreform>
+            <genreform source="aat" encodinganalog="655$a" authfilenumber="300027590">Legal documents</genreform>
+            <genreform source="aat" encodinganalog="655$a" authfilenumber="300026451">Poems</genreform>
+            <genreform source="aat" encodinganalog="655$a" authfilenumber="300027016">Genealogical tables</genreform>
+        </controlaccess>
+        <dsc id="a23" type="combined">
+            <head>Container List</head>
+            <c id="d5e192" level="collection">
+                <did>
+                    <unittitle>Susanne Schall Collection</unittitle>
+                    <unitdate type="inclusive" normal="1913/1971" era="ce" calendar="gregorian">undated, 1913-1971</unitdate>
+                </did>
+                <c id="d5e198" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">1</container>
+                        <unittitle>Meyer family - genealogy and family history</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1917</unitdate>
+                    </did>
+                </c>
+                <c id="d5e208" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">2</container>
+                        <unittitle>Oliven, Fritz - notes and poetry</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1949-1954</unitdate>
+                    </did>
+                </c>
+                <c id="d5e218" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">3</container>
+                        <unittitle>Oliven, Fritz - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1945-1956</unitdate>
+                    </did>
+                </c>
+                <c id="d5e228" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">4</container>
+                        <unittitle>Oliven, Klaus - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1945-1949</unitdate>
+                    </did>
+                </c>
+                <c id="d5e238" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">5</container>
+                        <unittitle>Oliven, Klaus - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1950-1968</unitdate>
+                    </did>
+                </c>
+                <c id="d5e248" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">6</container>
+                        <unittitle>Oliven, Leonie - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1940-1947</unitdate>
+                    </did>
+                </c>
+                <c id="d5e258" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">7</container>
+                        <unittitle>Oliven, Leonie - loose notes and autobiographical notes</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                    </did>
+                </c>
+                <c id="d5e268" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">8</container>
+                        <unittitle>Oliven, Seldi - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1945-1968</unitdate>
+                    </did>
+                </c>
+                <c id="d5e278" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">9</container>
+                        <unittitle>Oliven family - obituaries</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1956-1971</unitdate>
+                    </did>
+                </c>
+                <c id="d5e288" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">10</container>
+                        <unittitle>Schall, Herbert - correspondence</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1941-1951</unitdate>
+                    </did>
+                </c>
+                <c id="d5e299" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">11</container>
+                        <unittitle>Schall, Herbert and Susanne - wedding celebration</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1944</unitdate>
+                    </did>
+                </c>
+                <c id="d5e309" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">12</container>
+                        <unittitle>Schall, Susanne - correspondence with nieces and nephews</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1950-1968</unitdate>
+                    </did>
+                </c>
+                <c id="d5e319" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Schall, Susanne - correspondence with relatives and friends</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1941-1968</unitdate>
+                    </did>
+                </c>
+                <c id="d5e329" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">14</container>
+                        <unittitle>Miscellaneous</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913-1950</unitdate>
+                    </did>
+                </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>

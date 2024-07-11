@@ -1,0 +1,1388 @@
+<?xml version="1.0"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+    <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid mainagencycode="US-nynycjh" url="file:/usr/local/projects/migration_scripts/nyead/ead/nynycjh/256596_ErnstKantorowicz.xml">nynycjh_ernstkantorowicz</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper encodinganalog="245$a">Ernst Kantorowicz Collection,<date calendar="gregorian" era="ce" normal="1908/1982" type="inclusive">1908-1982</date>
+                    <lb/>&#xA0;<lb/>AR 7216 / MF 561</titleproper>
+                <author encodinganalog="245$c">Processed by LBI Staff</author>
+            </titlestmt>
+            <publicationstmt>
+                <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2009" type="publication">&#xA9; 2009</date>
+                <publisher encodinganalog="260$b">Leo Baeck Institute</publisher>
+                <address>
+                    <addressline>Leo Baeck Institute</addressline>
+                    <addressline>Center for Jewish History</addressline>
+                    <addressline>15 West 16th Street</addressline>
+                    <addressline>New York, NY 10011</addressline>
+                    <addressline>
+                        <lb/>Phone: (212) 744-6400</addressline>
+                    <addressline>Fax: (212) 988-1305</addressline>
+                    <addressline>
+                        <lb/>Email:<emph>
+                            <extref xlink:type="simple" xlink:href="mailto:lbaeck@lbi.cjh.org">lbaeck@lbi.cjh.org</extref>
+                        </emph>
+                    </addressline>
+                    <addressline>URL:<emph>
+                            <extref xlink:type="simple" xlink:href="http://www.lbi.org/">http://www.lbi.org</extref>
+                        </emph>
+                    </addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation encodinganalog="500$a">Finding aid was encoded in EAD 2002 by Chris Bentley on<date calendar="gregorian" era="ce" normal="2009-07-23">July 23, 2009</date>.</creation>
+            <langusage>Description is in<language encodinganalog="546$a" langcode="eng" scriptcode="Latn">English</language>.</langusage>
+        </profiledesc>
+        <revisiondesc>
+            <change encodinganalog="583$a">
+                <date era="ce" calendar="gregorian">September 2010:</date>
+                <item>Links to digital objects added in Container List.</item>
+            </change>
+            <change>
+                <date calendar="gregorian" era="ce">2010-09-15&#xA0;</date>
+                <item>encoding of linking to digital objects from finding aid was changed from &lt;extref&gt; to &lt;dao&gt; through dao_conv.xsl</item>
+            </change>
+        </revisiondesc>
+    </eadheader>
+    <archdesc level="collection" type="inventory">
+        <did id="a1">
+            <head>Descriptive Summary</head>
+            <origination audience="external" label="Creator">
+                <persname authfilenumber="n 83031777" encodinganalog="100$a" source="lcnaf">Kantorowicz, Ernst Hartwig, 1895-1963</persname>
+            </origination>
+            <unittitle audience="external" encodinganalog="245$a" label="Title">Ernst Kantorowicz Collection</unittitle>
+            <unitdate audience="external" calendar="gregorian" encodinganalog="245$f" era="ce" label="Dates" normal="1908/1982" type="inclusive">1908-1982</unitdate>
+            <abstract audience="external" encodinganalog="520$a" label="Abstract">Correspondence on various topics, including emigration to the United States and Cuba; relocation in academic jobs; denazification and conditions in Germany after the war; and Kantorowicz's scholarship. In addition to family members, correspondents include Ernst Curtius, Ludwig Edelstein, Bernhard Flexner, Felix Frankfurter, Sidney Hook, Robert Maynard Hutchins, Ernst Kitzinger, Theodor Ernst Mommsen, John Ulric Nef, Kurt Riezler, Hans Rothfels, Fritz Saxl, Percy Ernst Schramm, Edward Sproul, Gerd Tellenbach, Paul Tillich, Edward Tolman, Helen Waddell, Earl Warren, and Stanley Weigert.<lb/>
+                <lb/>Unpublished manuscripts, and offprints of articles and reviews by Kantorowicz, largely on medieval cultural history; a brief biography of him by Ralph Giesey.<lb/>
+                <lb/>Manuscripts, correspondence, legal briefs, clippings, and other material on the loyalty-oath controversy; material on Kantorowicz's tenure at the University of Frankfurt, and on his dismissal.<lb/>
+                <lb/>Manuscripts, correspondence, and other papers of family members; an art history essay by Gertrude Kantorowicz and a pamphlet of poetry from Theresienstadt; genealogies; and a manuscript on Simon Kaliphari of Posen; manuscript by Kaete Ledermann, A Memorial of Angi ("Esther") Kantorowicz, c. 1904-1944, 1954, including transcript compiled by Guenther Roth.<lb/>
+                <lb/>Photos of Kantorowicz and of family members.<lb/>
+                <lb/>Papers of Richard Kandt (1867-1918), an African explorer and, from 1908-1914, administrator of Ruanda: poems, letters, maps, and obituaries.<lb/>
+                <lb/>Addenda: Original lectures by Kantorowicz. Photocopies for reader service.<lb/>
+                <lb/>The following individuals and families are mentioned in this collection: Curtius, Ernst R.; Edelstein, Ludwig; Flexner, Bernhard; Frankfurter, Felix; Giesey, Ralph; Hook, Sidney; Hutchins, Robert Maynard; Kaliphari family; Kaliphari, Simon; Kandt, Richard; Kandt, Richard; Kantorowicz, Angela (Angi, Esther); Kantorowicz, Gertrude; Kitzinger, Ernst; Ledermann, Kaete; Lieeschuetz, Hans; Mommsen, Theodor; Nef, John Ulric; Riezler, Kurt; Rothfels, Hans; Saxl, Fritz; Schramm, Percy Ernst; Sproul, Edward; Tellenbach, Gerd; Tillich, Paul; Tolman, Edward; Waddell, Helen; Warren, Earl; Weigert, Stanley.</abstract>
+            <langmaterial audience="external" encodinganalog="546$a" label="Languages">The collection is in<language langcode="ger">German</language>and<language langcode="eng">English</language>.</langmaterial>
+            <physdesc audience="external" encodinganalog="300$a" label="Quantity">
+                <extent unit="linear feet">5.5</extent>linear feet;<extent unit="linear feet">3.25</extent>linear feet (photocopies of lectures)</physdesc>
+            <unitid audience="external" countrycode="US" encodinganalog="094a" label="Identification" repositorycode="US-nynycjh">AR 7216 / MF 561</unitid>
+            <repository audience="external" encodinganalog="852$a" label="Repository">
+                <corpname>Leo Baeck Institute</corpname>
+            </repository>
+        </did>
+        <bioghist altrender="biography" encodinganalog="545$a" id="a2">
+            <head>Biographical Note</head>
+            <p>Born in Posen (now Poznan, Poland) on May 5, 1895, Kantorowicz was a historian, who specialized in the Middle Ages. After serving in World War I, he fought with the Freikorps against the Poles in Posen, and against the Spartacist uprising in 1919. He received his doctorate at Heidelberg in 1921, and began teaching at Frankfurt am Main in 1930, receiving a chair in 1932. He was a member of the Stefan George Kreis, and is best known for his biography of Emperor Frederick II. He took a leave of absence to protest the antisemitic regulations instituted after the Nazis came to power, and was dismissed in 1934. He emigrated to Great Britain in 1938 and to the United States in 1939, where he taught at the University of California, Berkeley. He left as a result of the loyalty-oath controversy in 1951, and then served as professor at the Institute for Advanced Studies in Princeton until his death on September 9, 1963.</p>
+        </bioghist>
+        <scopecontent encodinganalog="520$a" id="a3">
+            <head>Scope and Contents</head>
+            <p>Correspondence on various topics, including emigration to the United States and Cuba; relocation in academic jobs; denazification and conditions in Germany after the war; and Kantorowicz's scholarship. In addition to family members, correspondents include Ernst Curtius, Ludwig Edelstein, Bernhard Flexner, Felix Frankfurter, Sidney Hook, Robert Maynard Hutchins, Ernst Kitzinger, Theodor Ernst Mommsen, John Ulric Nef, Kurt Riezler, Hans Rothfels, Fritz Saxl, Percy Ernst Schramm, Edward Sproul, Gerd Tellenbach, Paul Tillich, Edward Tolman, Helen Waddell, Earl Warren, and Stanley Weigert.<lb/>
+                <lb/>Unpublished manuscripts, and offprints of articles and reviews by Kantorowicz, largely on medieval cultural history; a brief biography of him by Ralph Giesey.<lb/>
+                <lb/>Manuscripts, correspondence, legal briefs, clippings, and other material on the loyalty-oath controversy; material on Kantorowicz's tenure at the University of Frankfurt, and on his dismissal.<lb/>
+                <lb/>Manuscripts, correspondence, and other papers of family members; an art history essay by Gertrude Kantorowicz and a pamphlet of poetry from Theresienstadt; genealogies; and a manuscript on Simon Kaliphari of Posen; manuscript by Kaete Ledermann, A Memorial of Angi ("Esther") Kantorowicz, c. 1904-1944, 1954, including transcript compiled by Guenther Roth.<lb/>
+                <lb/>Photos of Kantorowicz and of family members.<lb/>
+                <lb/>Papers of Richard Kandt (1867-1918), an African explorer and, from 1908-1914, administrator of Ruanda: poems, letters, maps, and obituaries.<lb/>
+                <lb/>Addenda: Original lectures by Kantorowicz. Photocopies for reader service.<lb/>
+                <lb/>The following individuals and families are mentioned in this collection: Curtius, Ernst R.; Edelstein, Ludwig; Flexner, Bernhard; Frankfurter, Felix; Giesey, Ralph; Hook, Sidney; Hutchins, Robert Maynard; Kaliphari family; Kaliphari, Simon; Kandt, Richard; Kandt, Richard; Kantorowicz, Angela (Angi, Esther); Kantorowicz, Gertrude; Kitzinger, Ernst; Ledermann, Kaete; Lieeschuetz, Hans; Mommsen, Theodor; Nef, John Ulric; Riezler, Kurt; Rothfels, Hans; Saxl, Fritz; Schramm, Percy Ernst; Sproul, Edward; Tellenbach, Gerd; Tillich, Paul; Tolman, Edward; Waddell, Helen; Warren, Earl; Weigert, Stanley.</p>
+        </scopecontent>
+        <arrangement encodinganalog="351$b" id="a5">
+            <head>Arrangement</head>
+            <p>This collection is arranged in 6 boxes.</p>
+            <list>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serI" xlink:href="">Box I, undated, 1921-1964</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serII" xlink:href="">Box II, undated, 1949-1964</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serIII" xlink:href="">Box III, undated, 1918-1991</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serIV" xlink:href="">Box IV, 1939-1949</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serV" xlink:href="">Box V, undated, 1942-1949</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serVI" xlink:href="">Box VI, 1940-1954</ref>
+                </item>
+            </list>
+        </arrangement>
+        <controlaccess id="a12">
+            <famname authfilenumber="n 83031777" encodinganalog="600$a" role="subject" rules="aacr2" source="lcnaf">Kantorowicz, Ernst Hartwig, 1895-1963</famname>
+            <corpname authfilenumber="no 96065698" encodinganalog="610$a" role="subject" rules="aacr2" source="lcnaf">Theresienstadt (Concentration camp)</corpname>
+            <subject authfilenumber="sh 85005764" encodinganalog="650$a" rules="aacr2" source="lcsh">Antisemitism</subject>
+            <subject authfilenumber="sh 85028388" encodinganalog="650$a" rules="aacr2" source="lcsh">College teachers -- United States</subject>
+            <subject encodinganalog="650$a" rules="aacr2" source="lcsh">Colonial administrators -- Rwanda</subject>
+            <subject authfilenumber="sh2008105653" encodinganalog="650$a" rules="aacr2" source="lcsh">Historians -- Germany</subject>
+            <subject encodinganalog="650$a" rules="aacr2" source="lcsh">Jews -- Persecutions -- Germany -- 1933-1945</subject>
+            <subject encodinganalog="650$a" rules="aacr2" source="lcsh">Loyalty oaths -- California</subject>
+            <subject authfilenumber="sh 85005616" encodinganalog="650$a" rules="aacr2" source="lcsh">Political refugees -- Education, Higher</subject>
+            <occupation encodinganalog="656$a" rules="aacr2" source="local">Teachers</occupation>
+            <geogname authfilenumber="sh 85054599" encodinganalog="651$a" role="subject" rules="aacr2" source="lcsh">Germany -- History - 1945-1955</geogname>
+            <geogname authfilenumber="sh 85054634" encodinganalog="651$a" role="subject" rules="aacr2" source="lcsh">Germany -- Politics and government -- 1871-1918</geogname>
+            <geogname encodinganalog="651$a" role="subject" rules="aacr2" source="local">United States -- Emigration and immigration -- 1933-1945</geogname>
+            <genreform encodinganalog="655$a" rules="aacr2" source="local">Photographs</genreform>
+            <genreform encodinganalog="655$a" rules="aacr2" source="local">Archival Materials</genreform>
+            <genreform encodinganalog="655$a" rules="aacr2" source="local">Manuscripts</genreform>
+        </controlaccess>
+        <descgrp>
+            <altformavail encodinganalog="530$a" id="a17">
+                <head>Microfilm</head>
+                <p>Collection is available on 9 reels of microfilm (MF 561).</p>
+                <list>
+                    <item>Reel 1: I/1/1 - I/2/5</item>
+                    <item>Reel 2: I/2/6 - I/3/32</item>
+                    <item>Reel 3: II/4/1 - II/5/1</item>
+                    <item>Reel 4: II/5/2 - II/6/4</item>
+                    <item>Reel 5: III/6/5 - III/8/2</item>
+                    <item>Reel 6: III/8/3 - IV/9/4</item>
+                    <item>Reel 7: IV/9/5 - IV/9/8</item>
+                    <item>Reel 8: IV/9/9 - V/9/12</item>
+                    <item>Reel 9: V/9/13 - VI/9/17</item>
+                </list>
+            </altformavail>
+            <separatedmaterial encodinganalog="544$n" id="a7">
+                <head>Separated Material</head>
+                <p>Photographs have been removed to the LBI Photograph Collection.</p>
+            </separatedmaterial>
+            <accessrestrict encodinganalog="506$a" id="a14">
+                <head>Access Restrictions</head>
+                <p>Open to researchers.</p>
+                <p>Collection is microfilmed; use MF 561.</p>
+            </accessrestrict>
+            <accessrestrict>
+                <head>Access Information</head>
+                <p>Readers may access the collection by visiting the<extref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" xlink:href="http://www.lbi.org/visit.html">Lillian Goldman Reading Room</extref>at the Center for Jewish History. We recommend reserving the collection in advance; please visit the<extref xlink:type="simple" xlink:href="http://opac.cjh.org:8991/F?func=item-global&amp;doc_library=CJH01&amp;doc_number=000202189">LBI Online Catalog</extref>and click on the "Request" button.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540$a" id="a15">
+                <head>Use Restrictions</head>
+                <p>There may be some restrictions on the use of the collection. For more information, contact:<lb/>Leo Baeck Institute, Center for Jewish History, 15 West 16th Street, New York, NY, 10011<lb/>email:<extref xlink:type="simple" xlink:title="email address of the Leo Baeck Institute" xlink:href="mailto:lbaeck@lbi.cjh.org">lbaeck@lbi.cjh.org</extref>
+                </p>
+                <p>Copyright is with Ariane Phillips.</p>
+                <p>Lectures are not to be published, but can be quoted.</p>
+            </userestrict>
+            <prefercite encodinganalog="524$a" id="a18">
+                <head>Preferred Citation</head>
+                <p>Published citations should take the following form:<lb/>
+                    <lb/>Identification of item, date (if known); Ernst Kantorowicz Collection; AR 7216 / MF 561; box number; folder number; Leo Baeck Institute.</p>
+            </prefercite>
+        </descgrp>
+        <dsc id="a23" type="combined">
+            <head>Container List</head>
+            <c id="d10e316" level="series">
+                <did>
+                    <unittitle id="serI">Box I</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1921/1964" type="inclusive">undated, 1921-1964</unitdate>
+                    <physdesc>
+                        <extent>66</extent>folders</physdesc>
+                </did>
+                <c id="d10e326" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/1</container>
+                        <unittitle>Essay on Ernst Kantorowicz by R. Giesey</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n29/mode/1up"/>
+                </c>
+                <c id="d10e337" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/2</container>
+                        <unittitle>Curriculum Vitae</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n64/mode/1up"/>
+                </c>
+                <c id="d10e348" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/3</container>
+                        <unittitle>Italian Drivers License</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n76/mode/1up"/>
+                </c>
+                <c id="d10e359" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/4</container>
+                        <unittitle>'Mein Lebensbild' by Salomon Kaliphari</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n79/mode/1up"/>
+                </c>
+                <c id="d10e370" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/5</container>
+                        <unittitle>University of Frankfurt/ Main - 'Einschreibeliste'</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1933-1934</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n126/mode/1up"/>
+                </c>
+                <c id="d10e381" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/6</container>
+                        <unittitle>Ernst Kantorowicz Library in Germany</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n134/mode/1up"/>
+                </c>
+                <c id="d10e392" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/7</container>
+                        <unittitle>England - includes letters ref. to emigration from Germany</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1938</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n176/mode/1up"/>
+                </c>
+                <c id="d10e403" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/8</container>
+                        <unittitle>Bibliography of publications</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n184/mode/1up"/>
+                </c>
+                <c id="d10e414" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/9</container>
+                        <unittitle>Lecture Themes</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n199/mode/1up"/>
+                </c>
+                <c id="d10e425" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/10</container>
+                        <unittitle>Lists of E.K. acquaintances and Address book</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n218/mode/1up"/>
+                </c>
+                <c id="d10e437" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/11</container>
+                        <unittitle>Last will of E.K.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1962</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n271/mode/1up"/>
+                </c>
+                <c id="d10e448" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/12</container>
+                        <unittitle>Photos - removed to photofile</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n280/mode/1up"/>
+                </c>
+                <c id="d10e459" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/13</container>
+                        <unittitle>Tapes on Kantorowicz</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n300/mode/1up"/>
+                </c>
+                <c id="d10e470" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/14</container>
+                        <unittitle>Statements, Correspondence, News clippings ref. to Oath Controversy</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949-1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n306/mode/1up"/>
+                </c>
+                <c id="d10e481" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/15</container>
+                        <unittitle>University of CA (Berkeley) transcript for tenure, 18 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">January 10, 1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n451/mode/1up"/>
+                </c>
+                <c id="d10e492" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/16</container>
+                        <unittitle>Pamphlets describing oath and controversy</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n472/mode/1up"/>
+                </c>
+                <c id="d10e503" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/17</container>
+                        <unittitle>Pamphlet 'The Fundamental Issue' by E.K.; documents and notes by E.K.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n592/mode/1up"/>
+                </c>
+                <c id="d10e514" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/18</container>
+                        <unittitle>Pamphlet on court case involving signing of loyalty oath</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1951-1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n626/mode/1up"/>
+                </c>
+                <c id="d10e525" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/19</container>
+                        <unittitle>Pamphlet on security vs. freedom</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1950</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n763/mode/1up"/>
+                </c>
+                <c id="d10e536" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/20</container>
+                        <unittitle>Miscellaneous Material - offprints</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n766/mode/1up"/>
+                </c>
+                <c id="d10e547" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/1/21</container>
+                        <unittitle>A memorial of Angi Kantorowicz</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n775/mode/1up"/>
+                </c>
+                <c id="d10e559" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/1</container>
+                        <unittitle>Manuscript "Synthronos" - English, 33 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n793/mode/1up"/>
+                </c>
+                <c id="d10e570" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/2</container>
+                        <unittitle>Charles the Bald &amp; the Natales Caesarum" - English, 34 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n860/mode/1up"/>
+                </c>
+                <c id="d10e581" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/3</container>
+                        <unittitle>"Roma and the Coal" - 2 versions English</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n902/mode/1up"/>
+                </c>
+                <c id="d10e592" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/4</container>
+                        <unittitle>"Coronation Scenarios - Eastern and Western - Epiphany &amp; coronation" - English, 60 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n991/mode/1up"/>
+                </c>
+                <c id="d10e603" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/5</container>
+                        <unittitle>Roman coins and Christian Rites" - 2 copies, English - 24 pp. and 34 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel01#page/n1057/mode/1up"/>
+                </c>
+                <c id="d10e614" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/6</container>
+                        <unittitle>"Grenzen, Moeglichkeiten und Aufgaben der Darstellung mittelalterlicher Geschichte" - German, 33 pp. and related offprints</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e625" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/7</container>
+                        <unittitle>"Das geheime Deutschland" - German, 22 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n49/mode/1up"/>
+                </c>
+                <c id="d10e636" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/8</container>
+                        <unittitle>"Wandel des Zeitgefuehls" - 2 versions German, 35 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n73/mode/1up"/>
+                </c>
+                <c id="d10e647" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/9</container>
+                        <unittitle>"Was ist Adel ?" - German, 29 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n146/mode/1up"/>
+                </c>
+                <c id="d10e658" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/10</container>
+                        <unittitle>"Zum Ottonenbild im Aachener Evangeliar" - German, 21 pp. and 1 photo</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n180/mode/1up"/>
+                </c>
+                <c id="d10e669" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/11</container>
+                        <unittitle>"The Idea of Permanency in the thirteenth Century" - English, 2 versions, 26 and 35 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n206/mode/1up"/>
+                </c>
+                <c id="d10e681" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/12</container>
+                        <unittitle>"Humanities and History" - English, 5 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n270/mode/1up"/>
+                </c>
+                <c id="d10e692" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/2/13</container>
+                        <unittitle>"The Dukes of Burgundy &amp; the Italian Renaissance" - English, 27 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n285/mode/1up"/>
+                </c>
+                <c id="d10e703" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/1</container>
+                        <unittitle>Review of Antonio de Stefano "L'idea imperiale di Federico II" (1927), in Historische Zeitschrift CXL (1929), 449-550</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1929</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n316/mode/1up"/>
+                </c>
+                <c id="d10e714" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/2</container>
+                        <unittitle>Review of Eleanor Shipley Duckett "Anglo-Saxon Saints and Scholars" (1947), in Classical Philology, XLIII (1948), 265-266</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n322/mode/1up"/>
+                </c>
+                <c id="d10e725" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/3</container>
+                        <unittitle>Review of Reto R. Bezzola "Les origines et la formation de la litterature courtoise en occident: 500-1200" (1944), in Comparative Literature (1949), 84-87</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n329/mode/1up"/>
+                </c>
+                <c id="d10e736" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/3a</container>
+                        <unittitle>Review of Leonardo Olschki "The Myth of Felt" (1949), in Romance Philology (1951), 281-284</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n336/mode/1up"/>
+                </c>
+                <c id="d10e747" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/4</container>
+                        <unittitle>Review of Eudes de Deuil "La Croisade de Louis VII." ed. Henry Waquet (1949), in Romance Philology (1952), 321-322</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n341/mode/1up"/>
+                </c>
+                <c id="d10e758" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/5</container>
+                        <unittitle>Review of "Martini episcopi Bracarensis opera omnia" ed. Claude W. Barlow (Papers &amp; Monographs of the American Academy in Rome, XII, 1950), in American Journal of Archeology (1952), 229-230</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n344/mode/1up"/>
+                </c>
+                <c id="d10e769" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/6</container>
+                        <unittitle>Review of Johan Huizinga "Geschichte und Kultur - Gesammelte Aufsaetze" ed. Kurt Koester (1954), in American Historical Review (1955), 853-855</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1955</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n347/mode/1up"/>
+                </c>
+                <c id="d10e780" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/7</container>
+                        <unittitle>Review of Charles Till Davis "Dante and the Idea of Rome" (1957), in Speculum (1959), 103-109</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1959</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n351/mode/1up"/>
+                </c>
+                <c id="d10e791" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/8</container>
+                        <unittitle>Review of Walter Ullmann "Principles of Government an Politics in the Middle Ages" (1961), in Speculum (1964), 344-351</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1964</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n357/mode/1up"/>
+                </c>
+                <c id="d10e803" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/9</container>
+                        <unittitle>Dissertation "Das Wesen der muslimischen Handwerkerverbaende", Heidelberg, 104 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1921</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n366/mode/1up"/>
+                </c>
+                <c id="d10e814" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/10</container>
+                        <unittitle>Clippings and notes for "Kaiser Friedrich der Zweite"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n472/mode/1up"/>
+                </c>
+                <c id="d10e825" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/11</container>
+                        <unittitle>Offprints and clippings "Mythenschau", in Historische Zeitschrift CXLI 1930, 457-471</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1930</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n503/mode/1up"/>
+                </c>
+                <c id="d10e836" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/12</container>
+                        <unittitle>"Deutsches Papsttum", in 'Vom Schicksal des deutsches Geistes'</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n542/mode/1up"/>
+                </c>
+                <c id="d10e847" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/13</container>
+                        <unittitle>"Petrus de Vinea in England", in Mitteilungen des Oesterreichischen Instituts fuer Geschichtsforschung, LI (1937), 43-88</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1937</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n564/mode/1up"/>
+                </c>
+                <c id="d10e858" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/14</container>
+                        <unittitle>Offprint and clippings "Die Wiederkehr gelehrter Anachorese im Mittelalter", 13 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1937</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n589/mode/1up"/>
+                </c>
+                <c id="d10e869" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/15</container>
+                        <unittitle>"The Este Portrait by Roger van der Weyden", in Journal of the Warburg and Courtald Institutes III (1939-1940) 165-180</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1939-1940</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n676/mode/1up"/>
+                </c>
+                <c id="d10e880" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/16</container>
+                        <unittitle>"A Norman Finale of the Exultet and the Rite of Sarum", in Harvard Theological Review, XXXIV (1941), 129-143</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1941</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n703/mode/1up"/>
+                </c>
+                <c id="d10e891" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/17</container>
+                        <unittitle>"Plato in the Middle Ages", in The Philosophical Review LI (1942), 313-323 and reviews of other works on Plato</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n715/mode/1up"/>
+                </c>
+                <c id="d10e902" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/18</container>
+                        <unittitle>"Ivories and Litanies", Journal of the Warburg and Courtland Institutes, V (1942), 56-81</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n724/mode/1up"/>
+                </c>
+                <c id="d10e913" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/19</container>
+                        <unittitle>"Anonymi 'Aurea Gemma'", in Medievalia et Humanistica, I (1943), 41-57</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1943</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n743/mode/1up"/>
+                </c>
+                <c id="d10e925" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/20</container>
+                        <unittitle>"An 'Autobiography' of Guido Faba" in Medieval and Renaissance Studies, I (1943), 253-280</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1943</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n756/mode/1up"/>
+                </c>
+                <c id="d10e936" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/21</container>
+                        <unittitle>"A Diplomatic Mission of Francis Accursius and his oration before Pope Nicholas III", in English Historical Review</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n776/mode/1up"/>
+                </c>
+                <c id="d10e947" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/22</container>
+                        <unittitle>"The problem of Medieval World Unity", in American Historical Association, Annual Report for 1942, III (1944), 31-37 - E.K.'s copy annotated</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n795/mode/1up"/>
+                </c>
+                <c id="d10e958" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/23</container>
+                        <unittitle>"The King's Advent and the Enigmatic Panels in the Doors of Santa Sabina" in Art Bulletin XXVI (1944), 207-231</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1944</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n812/mode/1up"/>
+                </c>
+                <c id="d10e969" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/24</container>
+                        <unittitle>"Laudes Regiae: A study in Liturgical Acclamations and Medieval Ruler Worship", in University of California Publications in History, XXXIII, Berkeley and L.A.: University of California Press, 1946, 292 pp. (1st of 3 Folders)</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1946</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n879/mode/1up"/>
+                </c>
+                <c id="d10e980" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/25</container>
+                        <unittitle>"Laudes Regiae" (2nd of 3 Folders)</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n961/mode/1up"/>
+                </c>
+                <c id="d10e991" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/26</container>
+                        <unittitle>"Laudes Regiae" (3rd of 3 Folders)</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1047/mode/1up"/>
+                </c>
+                <c id="d10e1002" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/27</container>
+                        <unittitle>"Notes on the Christus vincit Legend on Coins. Berkeley an L.A.: University of California Press, 1946. Reprint of Chapter 1 (pp.1-12) and Appendix (pp. 222-230)</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1090/mode/1up"/>
+                </c>
+                <c id="d10e1013" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/28</container>
+                        <unittitle>"How the pre-Hitler German Universities were run", in 'Adresses on the Problem of Administrative Overhead' (Western College Association)</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1945</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1104/mode/1up"/>
+                </c>
+                <c id="d10e1024" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/29</container>
+                        <unittitle>"The Quinity of Winchester" in Art Bulletin XXIV (1947), 73-85</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1947</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1110/mode/1up"/>
+                </c>
+                <c id="d10e1035" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/30</container>
+                        <unittitle>"Christus-Fiscus", in Synopsis: Festgabe fuer Alfred Weber (Heidelberg 1948), 223-235</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1160/mode/1up"/>
+                </c>
+                <c id="d10e1047" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/31</container>
+                        <unittitle>Introduction to Luis Weckmann - Las Bulas Alejandrinas de 1493 y la Teoria Politica del Papado Medieval (Mexico City 1949), 7-11</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1176/mode/1up"/>
+                </c>
+                <c id="d10e1058" level="file">
+                    <did>
+                        <container type="box">I</container>
+                        <container type="folder">I/3/32</container>
+                        <unittitle>The Fundamental Issue - Documents and Marginal Notes on the University of California Loyalty Oath, 40 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1950</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel02#page/n1184/mode/1up"/>
+                </c>
+            </c>
+            <c id="d10e1069" level="series">
+                <did>
+                    <unittitle id="serII">Box II</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1949/1964" type="inclusive">undated, 1949-1964</unitdate>
+                    <physdesc>
+                        <extent>33</extent>folders</physdesc>
+                </did>
+                <c id="d10e1079" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/1</container>
+                        <unittitle>"Pro patria mori in Medieval Thought", in American Historical Review, LVI (1951), 472-492</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1090" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/2</container>
+                        <unittitle>"Dante's 'Two Suns'", in Semitic and Oriental Studies (1951), 472-492</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n21/mode/1up"/>
+                </c>
+                <c id="d10e1101" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/3</container>
+                        <unittitle>"Der Gastfreund", in Albrecht Bernstorff zum Gedaechtnis, photocopy</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n55/mode/1up"/>
+                </c>
+                <c id="d10e1112" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/4</container>
+                        <unittitle>"Kaiser Friedrich II und das Koenigsbild des Hellenismus", in Varia Variorum: Festgabe fuer Karl Rheinhardt (Muenster-Koeln 1952), 163-193</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n61/mode/1up"/>
+                </c>
+                <c id="d10e1123" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/5</container>
+                        <unittitle>"Deus per naturam, deus per gratiam: A Note on Medieval Political Theology", in Harvard Theological Review, XLV (1952), 253-277</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1952</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n90/mode/1up"/>
+                </c>
+                <c id="d10e1134" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/6</container>
+                        <unittitle>Greek article in American Journal of Archeology, LVII (1953), 65-70</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1953</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n124/mode/1up"/>
+                </c>
+                <c id="d10e1145" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/7</container>
+                        <unittitle>"Inalienability: A Note on Canonical Practice and the English Coronation Oath in the Thirteenth Century" in Speculum, XXIX (1954), 488-502</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1954</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n138/mode/1up"/>
+                </c>
+                <c id="d10e1156" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/8</container>
+                        <unittitle>"Mysteries of State: An Absolutist Concept and its Late Medieval Origins", in Harvard Theological Review, XLVIII (1955), 65-91 and Spanish Translation</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1955</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n155/mode/1up"/>
+                </c>
+                <c id="d10e1167" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/9</container>
+                        <unittitle>"Invocatio Nominis Imperatoris: On vv. 21-25 of Cielo d'Alcamo's Contrasto", in Bolletino del Centro di Studi filologici e linguistici Siciliani, III (1955), 35-50</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1955</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n268/mode/1up"/>
+                </c>
+                <c id="d10e1178" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/10</container>
+                        <unittitle>"Late Classical and Medieval Studies in Honor of Albert Mathias Friend Jr.", ed. Kurt Weitzmann et al. Princeton: Princeton University Press, 1955 and "The Carolingian King in the Bible of San Paola fuori le mura", in Late Classical and Mediaeval Studies, 287-300</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated, 1955</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n296/mode/1up"/>
+                </c>
+                <c id="d10e1190" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/11</container>
+                        <unittitle>"The Babtism of the Apostles", in Dumbarton Oaks Papers, IX-X (1956), 204-251</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1956</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n319/mode/1up"/>
+                </c>
+                <c id="d10e1201" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/12</container>
+                        <unittitle>"Feudalism in the Byzantine Empire", in Feudalism in History (1956), 151-166</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1956</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n385/mode/1up"/>
+                </c>
+                <c id="d10e1212" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/13</container>
+                        <unittitle>"Zu den Rechtsgrundlagen der Kaisersage", in Deutsches Archiv, XIII (1957), 115-150</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1957</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n406/mode/1up"/>
+                </c>
+                <c id="d10e1223" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/14</container>
+                        <unittitle>"The Prologue to Fleta and the School of Petrus de Vinea", in Speculum XXXII (1957), 231-249</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1957</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n503/mode/1up"/>
+                </c>
+                <c id="d10e1234" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/15</container>
+                        <unittitle>"The Transformations of Apolline Ethics", in Charites: Studien zur Altertumswissenschaft (Festschrift Ernst Langlotz), Bonn 1957, 265-274</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1957</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n541/mode/1up"/>
+                </c>
+                <c id="d10e1245" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/16</container>
+                        <unittitle>Reviews of "The King's Two Bodies: A Study in Medieval Political Theology". Princeton University Press, 1957. 568 pp.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1957</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n566/mode/1up"/>
+                </c>
+                <c id="d10e1256" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/17</container>
+                        <unittitle>"The Archer in the Ruthwell Cross", in Art Bulletin, XLII (1960), 57-59</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1960</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n744/mode/1up"/>
+                </c>
+                <c id="d10e1267" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/18</container>
+                        <unittitle>"On the Golden Marriage Belt and the Marriage Rings of the Dumbarton Oaks Collection", in Dumbarton Oaks Papers, XIV (1960), 2-16</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1960</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n761/mode/1up"/>
+                </c>
+                <c id="d10e1278" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/19</container>
+                        <unittitle>"Kingship under the Impact of Scientific Jurisprudence", in Twelfth-Century Europe and the Foundations of Modern Society (1961), 89-111</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1961</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n784/mode/1up"/>
+                </c>
+                <c id="d10e1289" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/20</container>
+                        <unittitle>"The Sovereignty of the Artist: A Note on Legal Maxims and Renaissance Theories of Art", in De Artibus Opuscula XL: Essays in Honor of Erwin Panofsky (New York 1961), 267-279</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1961</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n811/mode/1up"/>
+                </c>
+                <c id="d10e1300" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/21</container>
+                        <unittitle>"Gods in Uniform", in Proceedings of the American Philosophical Society CV (1961), 368-393</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1961</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n840/mode/1up"/>
+                </c>
+                <c id="d10e1312" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/22</container>
+                        <unittitle>"Puer exoriens: On the Hypapante in the Mosaics of S. Maria Maggiore", in Perennitas (1963), 118-135</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1963</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n900/mode/1up"/>
+                </c>
+                <c id="d10e1323" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/23</container>
+                        <unittitle>"Oriens Augusti - Lever du Roi", in Dumbarton Oaks Papers, XVII (1963), 119-177</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1963</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n925/mode/1up"/>
+                </c>
+                <c id="d10e1334" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/4/24</container>
+                        <unittitle>"Constantinus Strator: Marginalien zum Constitutum Constantini", in Mullus: Festschrift Theodor Klauser (Jahrbuch fuer Antike und Christentum, 1964), 181-189</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1964</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n987/mode/1up"/>
+                </c>
+                <c id="d10e1345" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/5/1</container>
+                        <unittitle>Description of correspondence of Gertrude, Clara and Angie Kantorowicz, a manuscript by Kaete Ledermann on Angie Kantorowicz, correspondence on attempts to emigrate from Germany in 1941, and a detailed "Who's Who" of all names appearing in correspondence.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel03#page/n999/mode/1up"/>
+                </c>
+                <c id="d10e1356" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/5/2</container>
+                        <unittitle>Published manuscript by Gertrude Kantorowicz, "Ueber den Maerchenstil der Malerei und die Sienische Kunst des Quattrocento," poetry from Thereseinstadt, xeroxes of photos of Gertrude Kantorowicz</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1367" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/5/3</container>
+                        <unittitle>Correspondence of EHK with other historians and Felix Frankfurter (1934-1939) on possible jobs outside of Germany; Curriculum vitae, passport applications, ship tickets</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n119/mode/1up"/>
+                </c>
+                <c id="d10e1378" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/5/4</container>
+                        <unittitle>Correspondence, genealogical tables and a manuscript on EHK's family and ancestry</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n349/mode/1up"/>
+                </c>
+                <c id="d10e1389" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/5/5</container>
+                        <unittitle>EHK material concerning the Nazi seizure of power in 1933, on the 1933 boycott, and on the Nazi takeover at the University of Frankfurt</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n458/mode/1up"/>
+                </c>
+                <c id="d10e1400" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/6/1</container>
+                        <unittitle>Drafts, letters, memos, and articles pertaining to the Loyalty Oath Issue</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949-1950</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n610/mode/1up"/>
+                </c>
+                <c id="d10e1411" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/6/2</container>
+                        <unittitle>"Group for Academic Freedom" materials relating to the Loyalty Oath Issue</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n687/mode/1up"/>
+                </c>
+                <c id="d10e1422" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/6/3</container>
+                        <unittitle>Correspondence of EHK concerning the Loyalty Oath</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949-1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n739/mode/1up"/>
+                </c>
+                <c id="d10e1434" level="file">
+                    <did>
+                        <container type="box">II</container>
+                        <container type="folder">II/6/4</container>
+                        <unittitle>Legal Papers and correspondence dealing with the Loyalty Oath Action, and the subsequent compensation suit.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1950-1955</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel04#page/n909/mode/1up"/>
+                </c>
+            </c>
+            <c id="d10e1445" level="series">
+                <did>
+                    <unittitle id="serIII">Box III</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1918/1991" type="inclusive">undated, 1918-1991</unitdate>
+                    <physdesc>
+                        <extent>14</extent>folders</physdesc>
+                </did>
+                <c id="d10e1455" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/6/5</container>
+                        <unittitle>Miscellaneous clippings, notes, and pamphlets concerning the loyalty oath and compensation issues.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1466" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/1</container>
+                        <unittitle>Guide to dates of the loyalty oath controversy (1949-1953), drafts of loyalty oath statements by EHK and others, materials related to the Academic Senate of the University of California at Berkeley</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n232/mode/1up"/>
+                </c>
+                <c id="d10e1477" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/2</container>
+                        <unittitle>Correspondence and miscellaneous material related to EHK's first jobs in the USA, correspondence with other universities, Committee on Social Thought, 1940-1945, correspondence concerning job offers and lectures, 1950-1951</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1940-1945, 1950-1951</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n494/mode/1up"/>
+                </c>
+                <c id="d10e1488" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/3</container>
+                        <unittitle>Materials related to the National Refugee Service, correspondence concerning post-war Germany; includes a recommendation letter for Dr. Schramm from 1947, saying he was always an anti-Nazi and capable of teaching in post-war Germany</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated, 1947</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n693/mode/1up"/>
+                </c>
+                <c id="d10e1499" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/4</container>
+                        <unittitle>EHK's Correspondence at Princeton</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1951-1963</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n746/mode/1up"/>
+                </c>
+                <c id="d10e1510" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/5</container>
+                        <unittitle>Miscellaneous materials including review by EHK, list of his publications, reprint of article on EHK, obituaries of EHK, condolence letters including one from Olga Schnitzler</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n817/mode/1up"/>
+                </c>
+                <c id="d10e1521" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/6</container>
+                        <unittitle>Miscellaneous materials including reprints of articles by EHK, honorary degree from Lawrence University with related correspondence, and other academic honors and certificates</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n903/mode/1up"/>
+                </c>
+                <c id="d10e1532" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/7/7</container>
+                        <unittitle>Addenda: Passports and Travel Documents, 1930s, and correspondence with publishers, 1953-1963</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1930s, 1953-1963</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n989/mode/1up"/>
+                </c>
+                <c id="d10e1543" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/8/1</container>
+                        <unittitle>Papers of and About Richard Kandt, EHK's cousin and an African explorer. Most material from 1918</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1918</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n1074/mode/1up"/>
+                </c>
+                <c id="d10e1554" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/8/2</container>
+                        <unittitle>Lectures on German History, in English, by EHK. For the academic year, 1943-1944, as part of the Army Special Training Program.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1943-1944</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel05#page/n1111/mode/1up"/>
+                </c>
+                <c id="d10e1566" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/8/3</container>
+                        <unittitle>Information on Ernst Kantorowicz's Classes and Academic Career</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1577" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/8/4</container>
+                        <unittitle>Article, "L'erudition - et apres? Les historien allemands avant et apres 1945" by Peter Schoettler. From "Geneses", September 1991.</unittitle>
+                        <unitdate calendar="gregorian" era="ce">September 1991</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n31/mode/1up"/>
+                </c>
+                <c id="d10e1588" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/9/1</container>
+                        <unittitle>Lectures for Course, "Medieval Institutions"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1939-1941</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n40/mode/1up"/>
+                </c>
+                <c id="d10e1599" level="file">
+                    <did>
+                        <container type="box">III</container>
+                        <container type="folder">III/9/2</container>
+                        <unittitle>Lectures for Course, "Medieval Institutions II"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n393/mode/1up"/>
+                </c>
+            </c>
+            <c id="d10e1610" level="series">
+                <did>
+                    <unittitle id="serIV">Box IV</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1939/1949" type="inclusive">1939-1949</unitdate>
+                    <physdesc>
+                        <extent>7</extent>folders</physdesc>
+                </did>
+                <c id="d10e1620" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/3</container>
+                        <unittitle>Lectures for Course, "Medieval England"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n806/mode/1up"/>
+                </c>
+                <c id="d10e1631" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/4</container>
+                        <unittitle>Lectures for Course, "The Normans in European History"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1939</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel06#page/n1102/mode/1up"/>
+                </c>
+                <c id="d10e1642" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/5</container>
+                        <unittitle>Lectures for Course, "Byzantium"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1947</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel07#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1653" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/6</container>
+                        <unittitle>Lectures for Course, "Italian History"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1943-1944</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel07#page/n298/mode/1up"/>
+                </c>
+                <c id="d10e1664" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/7</container>
+                        <unittitle>Lectures for Course, "English Constitutional History"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1944-1947</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel07#page/n812/mode/1up"/>
+                </c>
+                <c id="d10e1675" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/8</container>
+                        <unittitle>Lectures for Course, "English Constitutional History II"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1945-1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel07#page/n1045/mode/1up"/>
+                </c>
+                <c id="d10e1686" level="file">
+                    <did>
+                        <container type="box">IV</container>
+                        <container type="folder">IV/9/9</container>
+                        <unittitle>Lectures for Course, "English Constitutional History"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1949</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel08#page/n0/mode/1up"/>
+                </c>
+            </c>
+            <c id="d10e1697" level="series">
+                <did>
+                    <unittitle id="serV">Box V</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1942/1949" type="inclusive">undated, 1942-1949</unitdate>
+                    <physdesc>
+                        <extent>5</extent>folders</physdesc>
+                </did>
+                <c id="d10e1707" level="file">
+                    <did>
+                        <container type="box">V</container>
+                        <container type="folder">V/9/10</container>
+                        <unittitle>Lectures for Course, "English Constitutional History II"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1948-1949</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel08#page/n219/mode/1up"/>
+                </c>
+                <c id="d10e1718" level="file">
+                    <did>
+                        <container type="box">V</container>
+                        <container type="folder">V/9/11</container>
+                        <unittitle>Lectures for Course, "The 13th Century"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel08#page/n422/mode/1up"/>
+                </c>
+                <c id="d10e1729" level="file">
+                    <did>
+                        <container type="box">V</container>
+                        <container type="folder">V/9/12</container>
+                        <unittitle>Lectures for Course, "The Ages of Transition, 13th-14th Centuries"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel08#page/n952/mode/1up"/>
+                </c>
+                <c id="d10e1740" level="file">
+                    <did>
+                        <container type="box">V</container>
+                        <container type="folder">V/9/13</container>
+                        <unittitle>Lectures for Course, "The Renaissance"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1945-1948</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel09#page/n0/mode/1up"/>
+                </c>
+                <c id="d10e1751" level="file">
+                    <did>
+                        <container type="box">V</container>
+                        <container type="folder">V/9/14</container>
+                        <unittitle>Lectures for Course, "Medieval England II," ("Medieval England I" missing), date unknown</unittitle>
+                        <unitdate calendar="gregorian" era="ce">undated</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel09#page/n536/mode/1up"/>
+                </c>
+            </c>
+            <c id="d10e1762" level="series">
+                <did>
+                    <unittitle id="serVI">Box VI</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1940/1954" type="inclusive">1940-1954</unitdate>
+                    <physdesc>
+                        <extent>3</extent>folders</physdesc>
+                </did>
+                <arrangement>
+                    <p>Chronological</p>
+                </arrangement>
+                <c id="d10e1775" level="file">
+                    <did>
+                        <container type="box">VI</container>
+                        <container type="folder">VI/9/15</container>
+                        <unittitle>Lectures for Course, "Medieval Foundations of Humanism and Renaissance"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1940</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel09#page/n777/mode/1up"/>
+                </c>
+                <c id="d10e1786" level="file">
+                    <did>
+                        <container type="box">VI</container>
+                        <container type="folder">VI/9/16</container>
+                        <unittitle>Lectures for Course, "The Reformation"</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1946-1947</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel09#page/n1060/mode/1up"/>
+                </c>
+                <c id="d10e1797" level="file">
+                    <did>
+                        <container type="box">VI</container>
+                        <container type="folder">VI/9/17</container>
+                        <unittitle>Humanities Lectures at Princeton University, 1953-1954; Schedule and two complete lectures, "Feudalism and Popular Sovereignty," and "Kingship of Freedom and Man in the Works of Dante."</unittitle>
+                        <unitdate calendar="gregorian" era="ce">1953-1954</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://www.archive.org/stream/ernstkantorowicz00reel09#page/n1635/mode/1up"/>
+                </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>

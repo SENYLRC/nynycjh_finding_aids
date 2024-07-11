@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" id="a0" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid mainagencycode="US-nynycjh" url="file:/usr/local/projects/migration_scripts/nyead/ead/nynycjh/431108_StefanZweigAutographs.xml">nynycjh_stefanzweigautographs</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper encodinganalog="245$a">Guide to the Stefan Zweig autographs collection,<date encodinganalog="245$f" type="inclusive" era="ce" calendar="gregorian">1915-1942</date>&#xA0;<lb/>
+                    <lb/>AR 834</titleproper>
+                <author encodinganalog="245$c">Processed by&#xA0;Hermann Teifer and LBI Staff</author>
+            </titlestmt>
+            <publicationstmt>
+                <address>
+                    <addressline>Leo Baeck Institute</addressline>
+                    <addressline>Center for Jewish History</addressline>
+                    <addressline>15 West 16th Street</addressline>
+                    <addressline>New York, NY 10011<lb/>
+                    </addressline>
+                    <addressline>Phone: (212) 744-6400</addressline>
+                    <addressline>Fax: (212) 988-1305</addressline>
+                    <addressline>Email: lbaeck@lbi.cjh.org<lb/>
+                    </addressline>
+                    <addressline>URL: http://www.lbi.org</addressline>
+                </address>
+                <p>
+                    <date encodinganalog="260$c" type="publication" era="ce" calendar="gregorian">&#xA9; 2012</date>Leo Back Institute, New York. All rights reserved.</p>
+                <publisher encodinganalog="260$b">Center for Jewish History, Publisher.</publisher>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation encodinganalog="500$a">Finding aid encoded in EAD 2002 by LBI Staff on<date era="ce" calendar="gregorian">2012-07-24</date>.</creation>
+            <langusage>Finding aid written in<language encodinganalog="546$a" langcode="eng" scriptcode="Latn">English</language>.</langusage>
+        </profiledesc>
+        <revisiondesc>
+            <change audience="external" encodinganalog="583$a">
+                <date calendar="gregorian" era="ce">February 2013:</date>
+                <item>Links to digital objects added in Container List.</item>
+            </change>
+        </revisiondesc>
+    </eadheader>
+    <archdesc level="collection" relatedencoding="MARC21" type="inventory">
+        <did id="a1">
+            <origination>
+                <corpname encodinganalog="110" role="creator" rules="dacs" source="lcnaf">Leo Baeck Institute</corpname>
+            </origination>
+            <unittitle encodinganalog="245$a" type="collection">Stefan Zweig autographs collection</unittitle>
+            <unitdate encodinganalog="245$f" type="inclusive" era="ce" calendar="gregorian">1915-1942</unitdate>
+            <abstract encodinganalog="520$a">The collection consists mainly of correspondence from the famous Austrian writer Stefan Zweig with various friends and acquaintances, acquired by the Leo Back Institute in New York through donations and auctions. Also included are copies and a few printed materials.</abstract>
+            <langmaterial encodinganalog="546">This collection is in German and some English.</langmaterial>
+            <physdesc>
+                <extent encodinganalog="300$a">4 folders</extent>
+            </physdesc>
+            <unitid countrycode="US" encodinganalog="094">AR 834</unitid>
+            <repository audience="external" encodinganalog="852" label="Repository">
+                <corpname encodinganalog="852$a">Leo Baeck Institute<subarea encodinganalog="852$b">Archives</subarea>
+                </corpname>
+            </repository>
+        </did>
+        <bioghist encodinganalog="545$a" id="a2">
+            <head>Biographical Note</head>
+            <p>Stefan Zweig was born November 28, 1881, in Vienna, Austria into a family of wealthy industrialist. He studied in Austria, France, and Germany, earning his doctoral degree at the University of Vienna. After a short stop as literary editor of the Neue Freie Presse under Theaodor Herzl, Stefan Zweig became a most prolific and widely read critic and author of novels, biographies, plays, etc. In 1913 he settled in Salzburg, getting married to Friderike von Winternitz in 1914. During World War I he worked in the archives of the Austrian Armed Forces and became afterwards one of the great proponents of peaceful coexistence in Europe, living in Salzburg and travelling widely. After Austria&#x2019;s Anschluss to Nazi Germany in 1938, Zweig became a British citizen, and in 1940, after a lecture tour in South America, he settled in Brazil. Disillusioned and isolated, Zweig committed suicide with his second wife, Charlotte E. Altmann, in Petr&#xF3;polis, near Rio de Janeiro on February 23, 1942.</p>
+        </bioghist>
+        <scopecontent encodinganalog="520$a">
+            <head>Scope and Content Note</head>
+            <p>The collection consists mainly of correspondence from the famous Austrian writer Stefan Zweig with various friends and acquaintances, acquired by the Leo Back Institute in New York through donations and auctions. Also included are copies and a few printed materials.</p>
+            <p>The following individuals are mentioned in this collection:</p>
+            <p>Eisemann; Artur Fischer-Colbrie; Wolfgang Goetz; Dr. Guggenheim; Paul Hirsch; Henry Joske; Hellmut Meyer; Max Rieser; Ella Spiero; Oskar Schmitz; Frau Woltinski; and Paul Zesch.</p>
+        </scopecontent>
+        <arrangement encodinganalog="351$a" id="a4">
+            <head>Arrangement</head>
+            <p>This collection is arranged in 2 series.</p>
+            <list>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serI" xlink:href="">Series I: Originals, undated, 1915-1937, 1942</ref>
+                </item>
+                <item>
+                    <ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="serII" xlink:href="">Series II: Copies and published materials, undated, 1916, 1937-1942</ref>
+                </item>
+            </list>
+        </arrangement>
+        <descgrp>
+            <separatedmaterial encodinganalog="544$n" id="a7">
+                <head>Separated Material</head>
+                <p>Photographs have been removed to the LBI Photograph Collection.</p>
+                <p>Obituaries and other clippings have been removed to the Stefan Zweig clipping collection, AR 1476.</p>
+            </separatedmaterial>
+            <accessrestrict encodinganalog="506$a" id="a14">
+                <head>Access Restrictions</head>
+                <p>Open to researchers.</p>
+            </accessrestrict>
+            <accessrestrict encodinganalog="506$a">
+                <head>Access Information</head>
+                <p>Readers may access the collection by visiting the<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://www.lbi.org/visit.html">Lillian Goldman Reading Room</extref>at the Center for Jewish History. We recommend reserving the collection in advance; please visit the LBI Online Catalog and click on the<emph>
+                        <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://opac.cjh.org:8991/F?func=item-global&amp;doc_library=CJH01&amp;doc_number=000194214">"Request"</extref>
+                    </emph>button.</p>
+                <p>Collection is digitized. Follow the links in the<ref xlink:type="simple" xlink:actuate="onRequest" xlink:show="new" target="a23" xlink:href="">Container List</ref>to access the digitized materials.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540$a" id="a15">
+                <head>Use Restrictions</head>
+                <p>There may be some restrictions on the use of the collection. For more information, contact:<lb/>Leo Baeck Institute, Center for Jewish History, 15 West 16th Street, New York, NY 10011<lb/>email:<extref xlink:type="simple" xlink:title="email address of the Leo Baeck Institute" xlink:href="mailto:lbaeck@lbi.cjh.org">lbaeck@lbi.cjh.org</extref>
+                </p>
+            </userestrict>
+            <prefercite encodinganalog="524$a" id="a18">
+                <head>Preferred Citation</head>
+                <p>Published citations should take the following form:</p>
+                <p>Identification of item, date (if known); Stefan Zweig autographs collection; AR 834; box number; folder number; Leo Baeck Institute.</p>
+            </prefercite>
+            <otherfindaid encodinganalog="555$a" id="a8">
+                <head>Other Finding Aid</head>
+                <p>Copies of 9 catalog cards for the initial autographs collection in folder 1.</p>
+            </otherfindaid>
+        </descgrp>
+        <controlaccess id="a12">
+            <persname encodinganalog="'600$a'" role="subject" rules="dacs" source="lcnaf">Zweig, Stefan, 1881-1942</persname>
+            <persname encodinganalog="'600$a'" role="subject" rules="dacs" source="lcnaf">Zweig, Friderike Maria Burger Winternitz, 1882-1971</persname>
+            <persname encodinganalog="'600$a'" role="subject" rules="dacs" source="lcnaf">Zweig, Charlotte Altmann</persname>
+            <subject encodinganalog="650$a" rules="dacs" source="lcsh">Jewish authors -- Austria</subject>
+            <geogname encodinganalog="651$a" role="subject" rules="lcsh" source="lcsh">Brazil -- Emigration and immigration -- 1933-1945</geogname>
+            <geogname encodinganalog="651$a" role="subject" rules="lcsh" source="lcsh">Great Britain -- Emigration and immigration -- 1933-1945</geogname>
+            <geogname encodinganalog="651$a" role="subject" rules="lcsh" source="lcsh">Petro&#x301;polis (Brazil)</geogname>
+            <geogname encodinganalog="651$a" role="subject" rules="lcsh" source="lcsh">Salzburg (Austria)</geogname>
+            <geogname encodinganalog="651$a" role="subject" rules="lcsh" source="lcsh">Vienna (Austria)</geogname>
+            <genreform encodinganalog="655$a" source="local">Archival materials</genreform>
+            <genreform encodinganalog="655$a" source="local">Correspondence</genreform>
+            <genreform encodinganalog="655$a" source="local">Photographs</genreform>
+            <genreform encodinganalog="655$a" source="local">Autographs</genreform>
+            <genreform encodinganalog="655$a" source="local">Manuscripts</genreform>
+        </controlaccess>
+        <dsc id="a23" type="combined">
+            <head>Container List</head>
+            <p>The following section contains a detailed listing of the materials in the collection.</p>
+            <p>Follow the links to access the digitized materials.</p>
+            <c id="d1e214" level="series">
+                <did>
+                    <unittitle id="serI">Series I: Originals</unittitle>
+                    <unitdate era="ce" calendar="gregorian">undated, 1915-1937, 1942</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Included are 18 original autographs , mostly letters to friends and acquaintances, as well as a handwritten poem, "Vorgef&#xFC;hl", written on the eve of his suicide. Also included is an undated, unsigned typescript (2 p.), &#x2018;Dank an die B&#xFC;cher&#x2019;.</p>
+                </scopecontent>
+                <c id="d1e223" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">1</container>
+                        <unittitle>16 original autographs, mostly letters to friends and acquaintances</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1915, 1926-1937</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=1638682"/>
+                    <c id="d1e234" level="item">
+                        <did>
+                            <unittitle>Ein Dramatiker</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e240" level="item">
+                        <did>
+                            <unittitle>Dr. Guggenheim</unittitle>
+                            <unitdate era="ce" calendar="gregorian">4/29/1930</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e246" level="item">
+                        <did>
+                            <unittitle>Hellmut Meyer</unittitle>
+                            <unitdate era="ce" calendar="gregorian">6/27/1931</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e252" level="item">
+                        <did>
+                            <unittitle>Ella Spiero</unittitle>
+                            <unitdate era="ce" calendar="gregorian">ca. 1915</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e258" level="item">
+                        <did>
+                            <unittitle>Oskar Schmitz</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e264" level="item">
+                        <did>
+                            <unittitle>Wolfgang Goetz</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e270" level="item">
+                        <did>
+                            <unittitle>Paul Hirsch</unittitle>
+                            <unitdate era="ce" calendar="gregorian">5/31/1937</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e276" level="item">
+                        <did>
+                            <unittitle>Redaktion</unittitle>
+                            <unitdate era="ce" calendar="gregorian">7/8/1927</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e282" level="item">
+                        <did>
+                            <unittitle>Artur Fischer-Colbrie</unittitle>
+                            <unitdate era="ce" calendar="gregorian">12/21/1926, 1/15/1927, 4/25/1927, 5/7/1927, 9/26/1932, 6/9/1928</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e289" level="item">
+                        <did>
+                            <unittitle>Frau Woltinski</unittitle>
+                            <unitdate era="ce" calendar="gregorian">8/29/1923, 2/22/1933</unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c id="d1e295" level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <container type="folder">2</container>
+                        <unittitle>Originals</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1936-1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=1638683"/>
+                    <c id="d1e306" level="item">
+                        <did>
+                            <unittitle>Max Rieser letter</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e312" level="item">
+                        <did>
+                            <unittitle>Paul Zesch letters</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated, 12/25/1941</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e318" level="item">
+                        <did>
+                            <unittitle>Paul Zesch telegram</unittitle>
+                            <unitdate era="ce" calendar="gregorian">9/8/1936</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e324" level="item">
+                        <did>
+                            <unittitle>Paul Zesch transcript and English translations of two letters</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e330" level="item">
+                        <did>
+                            <unittitle>Poem, "Vorgef&#xFC;hl", written on the eve of his suicide</unittitle>
+                            <unitdate era="ce" calendar="gregorian">February 23, 1942</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e336" level="item">
+                        <did>
+                            <unittitle>Typescript (carbon copy), unsigned : &#x2018;Dank an die B&#xFC;cher&#x2019;</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </did>
+                    </c>
+                </c>
+            </c>
+            <c id="d1e342" level="series">
+                <did>
+                    <unittitle id="serII">Series II: Copies and published materials</unittitle>
+                    <unitdate era="ce" calendar="gregorian">undated, 1916, 1937-1942</unitdate>
+                </did>
+                <scopecontent>
+                    <p>This series contains copies of letters by Stefan Zweig to friends and acquaintances, as well as a facsimile copy of his suicide note. Also included are printed materials.</p>
+                </scopecontent>
+                <c id="d1e351" level="file">
+                    <did>
+                        <container type="box">2</container>
+                        <container type="folder">1</container>
+                        <unittitle>Copies of letters and other originals</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1916-1942</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=1638684"/>
+                    <c id="d1e362" level="item">
+                        <did>
+                            <unittitle>Lieber guter Freund</unittitle>
+                            <unitdate era="ce" calendar="gregorian">1/10/1916</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e368" level="item">
+                        <did>
+                            <unittitle>Four letters to the book dealer Eisemann</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated, 1941</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e374" level="item">
+                        <did>
+                            <unittitle>Draft for a speech</unittitle>
+                            <unitdate era="ce" calendar="gregorian">1937</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e380" level="item">
+                        <did>
+                            <unittitle>Copies of letters to Herr Marx and &#x201E;Willi&#x201C;</unittitle>
+                            <unitdate era="ce" calendar="gregorian">1937-1941</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e386" level="item">
+                        <did>
+                            <unittitle>Copy of Stefan Zweig&#x2019;s suicide note</unittitle>
+                            <unitdate era="ce" calendar="gregorian">2/22/1942</unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c id="d1e392" level="file">
+                    <did>
+                        <container type="box">2</container>
+                        <container type="folder">2</container>
+                        <unittitle>Others</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated, 1939-1940</unitdate>
+                    </did>
+                    <dao xlink:type="simple" xlink:actuate="onRequest" altrender="lbi" xlink:show="new" xlink:href="http://digital.cjh.org/webclient/DeliveryManager?pid=1638685"/>
+                    <c id="d1e403" level="item">
+                        <did>
+                            <unittitle>Two fliers, announcing public appearances by Stefan Zweig in New York</unittitle>
+                            <unitdate era="ce" calendar="gregorian">1939</unitdate>
+                        </did>
+                    </c>
+                    <c id="d1e409" level="item">
+                        <did>
+                            <unittitle>Photographs (copies)</unittitle>
+                            <unitdate era="ce" calendar="gregorian">undated, 1940</unitdate>
+                        </did>
+                    </c>
+                </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
